@@ -1,6 +1,3 @@
-# nodejs
-Notes and examples for Node.js
-
 **NODE.JS**
 
 Node.js(2009) is an open-source, cross-platform  JavaScript(1995) (asynchronous event-driven) runtime environment that executes JavaScript code outside of a web browser. It allows developers to use JavaScript for server-side scripting, enabling them to build scalable and high-performance network applications. Node.js is built on the V8 JavaScript runtime engine.
