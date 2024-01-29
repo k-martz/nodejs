@@ -94,15 +94,29 @@ the do this ASAP message comes first, but node.js registers the callback execute
 
 **The Promises solution** (asynchronous and non-blocking)
 
+Promises are a powerful tool in Node. js for simplifying asynchronous code,
+making it more readable and maintainable. Promises have three states: pending,
+fulfilled (resolved), and rejected. This state-based model allows for clear handling 
+of success and error scenarios.
+Namespaces are simply named JavaScript objects in the 
+global namespace.
+
 ```node.js
 const { readFile } =require( 'fs').promises;  
 async function hello() {  
 const file=await readFile(' ./hello.txt', 'utf8');}
 ```
 
-&nbsp;
+ adding fs from promises namespace
 
-&nbsp;
+**Modules**
+
+```node.js
+module.exports = {
+    food: 'pastitsio' 
+}
+```
+using module.exports
 
 Commands:  
 npm : node package manager  
