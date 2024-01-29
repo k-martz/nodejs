@@ -37,7 +37,7 @@ process (inbuilt global object in NodeJS)
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ```node.js
-process.on(‘exit’, function(){ sample function })
+process.on('exit', function(){ sample function })
 ```
 
 (this function does something during on exit)
@@ -56,7 +56,7 @@ This method is used when we have something running and is cpu intensive
 
 ```node.js
 const { EventEmitter }=require( 'events');  
-const eventEmitter=new Event Emitter();  
+const eventEmitter=new EventEmitter();  
 eventEmitter.on( 'lunch' ,()=>{  
 console. log( 'yum ')})
 eventEmitter.emit('lunch');
@@ -68,7 +68,7 @@ when we see sync===blocking (strictly equal)
 
 ```node.js
 const { readFile, readFileSync }=require( 'fs');
-const txt= readFileSync(' ./hello .txt' ,'utf8');  
+const txt= readFileSync('./hello.txt' ,'utf8');  
 console. log(txt);  
 console.log('do this ASAP')
 ```
@@ -82,8 +82,8 @@ and then "do this ASAP"
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ```node.js
-readFile(' ./hello.txt','utf8',(err,txt) =>{
-console. log(txt)
+readFile('./hello.txt','utf8',(err,txt) =>{
+console.log(txt)
 });  
 console.log( 'do this ASAP')
 ```
