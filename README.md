@@ -72,8 +72,9 @@ console.log('do this ASAP')
 
 --------
 
+we can synchronously read files, i.e. we are telling node.js 
+to block other parallel processes and do the current file reading process.
 prints first what is inside the txt file (no matter how it longs it takes)
-
 and then "do this ASAP"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
